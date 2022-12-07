@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { Authentication } from "../middleware/Authentication";
-import { UpdateUserAction } from "../modules/user/Application/Rest/UpdateUserAction";
+import { UpdateUserAction } from "../modules/User/Application/Rest/UpdateUserAction";
 
 const updateUserAction = new UpdateUserAction();
 

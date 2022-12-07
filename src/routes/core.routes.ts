@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { LoginAction } from "../modules/core/Application/Rest/LoginAction";
-import { SignupAction } from "../modules/core/Application/Rest/SignupAction";
+import { LoginAction } from "../modules/Core/Application/Rest/LoginAction";
+import { SignupAction } from "../modules/Core/Application/Rest/SignupAction";
 
 const loginAction = new LoginAction();
 const signupAction = new SignupAction();
