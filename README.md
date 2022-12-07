@@ -37,6 +37,3 @@
   - **Application**: Responsável por receber e tratar as entradas de dados para enviar para a camada de domínio ou de infraestrutura. Na camada de Application é possível manipular requisições via HTTP, comando de terminal (CLI), consumer se filas (RabbitMQ), e outros.
   
   - **Domain**: Onde fica toda regra de negócio da aplicação, os casos de uso e as entidades.
-
-  - **Infrastructure**: Responsável por acessar recursos externos, como banco de dados, APIs de terceiro, arquivos em disco, etc.   
-  
