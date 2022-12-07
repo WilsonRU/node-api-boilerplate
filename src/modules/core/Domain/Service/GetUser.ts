@@ -5,7 +5,7 @@ import { FindUserDto } from "../Dto/FindUserDto";
 import bcrypt from "bcrypt";
 import jwt, { Secret } from "jsonwebtoken";
 
-const SECRET_KEY: Secret = "13ffdafe-5daa-11eb-ae93-0242ac130002";
+const SECRET_KEY: Secret = process.env.JWT_SECRET ? process.env.JWT_SECRET : "13ffdafe-5daa-11eb-ae93-0242ac130002";
 
 export class GetUser {
     async execute({email, password}: FindUserDto): Promise<any> {
