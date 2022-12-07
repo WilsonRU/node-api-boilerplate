@@ -1,0 +1,350 @@
+<svg id="mermaid-1542135293180" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1050px;" viewBox="-50 -10 1050 506"><style>
+
+
+#mermaid-1542135293180 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1542135293180 .node rect,
+#mermaid-1542135293180 .node circle,
+#mermaid-1542135293180 .node ellipse,
+#mermaid-1542135293180 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1542135293180 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1542135293180 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1542135293180 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1542135293180 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1542135293180 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1542135293180 .cluster text {
+  fill: #333; }
+
+#mermaid-1542135293180 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1542135293180 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1542135293180 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1542135293180 .actor-line {
+  stroke: grey; }
+
+#mermaid-1542135293180 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  marker-end: 'url(#arrowhead)';
+  stroke: #333; }
+
+#mermaid-1542135293180 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1542135293180 #arrowhead {
+  fill: #333; }
+
+#mermaid-1542135293180 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1542135293180 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1542135293180 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1542135293180 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1542135293180 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1542135293180 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  marker-end: 'url(#arrowhead)';
+  stroke: #CCCCFF; }
+
+#mermaid-1542135293180 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1542135293180 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+
+#mermaid-1542135293180 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1542135293180 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1542135293180 .section2 {
+  fill: #fff400; }
+
+#mermaid-1542135293180 .section1,
+#mermaid-1542135293180 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1542135293180 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1542135293180 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1542135293180 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1542135293180 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1542135293180 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1542135293180 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1542135293180 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1542135293180 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1542135293180 .task {
+  stroke-width: 2; }
+
+#mermaid-1542135293180 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1542135293180 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1542135293180 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1542135293180 .taskText0,
+#mermaid-1542135293180 .taskText1,
+#mermaid-1542135293180 .taskText2,
+#mermaid-1542135293180 .taskText3 {
+  fill: white; }
+
+#mermaid-1542135293180 .task0,
+#mermaid-1542135293180 .task1,
+#mermaid-1542135293180 .task2,
+#mermaid-1542135293180 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1542135293180 .taskTextOutside0,
+#mermaid-1542135293180 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1542135293180 .taskTextOutside1,
+#mermaid-1542135293180 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1542135293180 .active0,
+#mermaid-1542135293180 .active1,
+#mermaid-1542135293180 .active2,
+#mermaid-1542135293180 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1542135293180 .activeText0,
+#mermaid-1542135293180 .activeText1,
+#mermaid-1542135293180 .activeText2,
+#mermaid-1542135293180 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1542135293180 .done0,
+#mermaid-1542135293180 .done1,
+#mermaid-1542135293180 .done2,
+#mermaid-1542135293180 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1542135293180 .doneText0,
+#mermaid-1542135293180 .doneText1,
+#mermaid-1542135293180 .doneText2,
+#mermaid-1542135293180 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1542135293180 .crit0,
+#mermaid-1542135293180 .crit1,
+#mermaid-1542135293180 .crit2,
+#mermaid-1542135293180 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1542135293180 .activeCrit0,
+#mermaid-1542135293180 .activeCrit1,
+#mermaid-1542135293180 .activeCrit2,
+#mermaid-1542135293180 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1542135293180 .doneCrit0,
+#mermaid-1542135293180 .doneCrit1,
+#mermaid-1542135293180 .doneCrit2,
+#mermaid-1542135293180 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1542135293180 .doneCritText0,
+#mermaid-1542135293180 .doneCritText1,
+#mermaid-1542135293180 .doneCritText2,
+#mermaid-1542135293180 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1542135293180 .activeCritText0,
+#mermaid-1542135293180 .activeCritText1,
+#mermaid-1542135293180 .activeCritText2,
+#mermaid-1542135293180 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1542135293180 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1542135293180 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1542135293180 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1542135293180 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1542135293180 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1542135293180 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1542135293180 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1542135293180 .commit-id,
+#mermaid-1542135293180 .commit-msg,
+#mermaid-1542135293180 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1542135293180 {
+    color: rgba(0, 0, 0, 0.65);
+    font: normal normal 400 normal 14px / 21px "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }</style><g></g><g><line id="actor3305" x1="75" y1="5" x2="75" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">Client</tspan></text></g><g><line id="actor3306" x1="275" y1="5" x2="275" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Application</tspan></text></g><g><line id="actor3307" x1="475" y1="5" x2="475" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="475" dy="0">Domain</tspan></text></g><g><line id="actor3308" x1="675" y1="5" x2="675" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="600" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="675" dy="0">Infrastructure</tspan></text></g><g><line id="actor3309" x1="875" y1="5" x2="875" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="800" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="875" dy="0">DB</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">HTTP POST mutation { save }</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="270" y="102" fill="#f4f4f4" stroke="#666" width="10" height="308" rx="0" ry="0"></rect></g><g><text x="377.5" y="128" class="messageText" style="text-anchor: middle;">service.execute(dto)</text><line x1="280" y1="135" x2="475" y2="135" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="470" y="137" fill="#f4f4f4" stroke="#666" width="10" height="238" rx="0" ry="0"></rect></g><g><text x="480" y="163" class="messageText" style="text-anchor: middle;">Entity::fromDTO(dto)</text><path d="M 480,170 C 540,160 540,200 480,190" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><text x="577.5" y="228" class="messageText" style="text-anchor: middle;">repository.store(entity)</text><line x1="480" y1="235" x2="675" y2="235" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="670" y="237" fill="#f4f4f4" stroke="#666" width="10" height="103" rx="0" ry="0"></rect></g><g><text x="777.5" y="263" class="messageText" style="text-anchor: middle;">db.save(params)</text><line x1="680" y1="270" x2="875" y2="270" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="870" y="272" fill="#f4f4f4" stroke="#666" width="10" height="33" rx="0" ry="0"></rect></g><g><text x="775" y="298" class="messageText" style="text-anchor: middle;">true</text><line x1="870" y1="305" x2="680" y2="305" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="575" y="333" class="messageText" style="text-anchor: middle;"></text><line x1="670" y1="340" x2="480" y2="340" class="messageLine1" stroke-width="2" stroke="black" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="375" y="368" class="messageText" style="text-anchor: middle;">Entity</text><line x1="470" y1="375" x2="280" y2="375" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="172.5" y="403" class="messageText" style="text-anchor: middle;">200 Ok application/json</text><line x1="270" y1="410" x2="75" y2="410" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">Client</tspan></text></g><g><rect x="200" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Application</tspan></text></g><g><rect x="400" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="475" dy="0">Domain</tspan></text></g><g><rect x="600" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="675" dy="0">Infrastructure</tspan></text></g><g><rect x="800" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="875" dy="0">DB</tspan></text></g></svg>
